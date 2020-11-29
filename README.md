@@ -1,2 +1,4 @@
-# program_training
+# addline用のプログラムトレーニングソースです
 プログラムトレニーニング用
+
+
