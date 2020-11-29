@@ -1,0 +1,8 @@
+#IF～ELSEで分岐処理
+#Nが10、判定基準が20で判定をする場合
+N = 10
+IF N = 20 THEN
+  PRINT "OK"
+ELSE
+  PRINT "NG"
+ENDIF
