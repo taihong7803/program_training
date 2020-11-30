@@ -1,0 +1,13 @@
+#複数のIFを使用する場合 ELSIFで複数書くことができます
+#N=3の値を判定
+N = 3
+
+IF N = 1 THEN
+  PRINT 1
+ELSIF N = 2 THEN
+  PRINT 2
+ELSIF N = 3 THEN
+  PRINT 3
+ELSE
+  PRINT "NONE"
+ENDIF

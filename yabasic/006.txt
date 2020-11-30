@@ -1,0 +1,12 @@
+#DO～LOOP
+#ずっとループしますので
+#ループを抜けないのでかならず抜けるようにします
+#抜けるためには IFで条件式をつけて BREAKで抜けます
+
+DO
+  A = A + 1
+  PRINT A
+  IF A >= 100 THEN
+    BREAK
+  END IF
+LOOP
