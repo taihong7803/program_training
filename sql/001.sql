@@ -1,3 +1,3 @@
 --SQL‚ðŽŽ‚µ‚Ä‚Ý‚é
 
-SELECT * FROM A;
+SELECT •i–¼ FROM ¤•i•\;
