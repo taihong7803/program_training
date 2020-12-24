@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>宿泊予約</title>
+	</head>
+	<body>
+        <h1>宿泊予約</h1>
+        <form>
+            ID:<input type="text" id="user_id" name="user_id" required autofocus>
+            <br />
+            料理:<input type="text" id="menu" name="menu" list="menuList" autocomplete="on">
+            <br />
+            <datalist id="menuList">
+                <option value="海鮮丼">海鮮丼</option>
+            </datalist>
+            予約日:<input type="date" id="resDay" name="resDay" required>
+            <br />
+            <input type="submit" value="送信">
+        </form>
+    </body>
+</html>
