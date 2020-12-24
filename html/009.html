@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>table要素</title>
+    </head>
+    <body>
+        <h1>table要素</h1>
+        <p>
+        表(table)を作成するには、ブロックレベル要素であるtable要素を使用する。<br />
+        まず、htmlの用語として、表のなかのひとつひとつの項目を「セル」(cell)、横方向のセルのまとまりを「行」(row)<br />
+        縦方向のセルをまとまりを「列」(column)と表現する。
+        </p>
+        <p>
+        表の基本的な構造について、まずtr要素で行(table row)を定義し、内容として見出しセル(table header cell)であるth要素か、<br />
+        データセル(table data cell)である、th要素か、データセル(table data cell、通常のセルのこと)であるtd要素を含め全体table要素を囲む。
+        </p>
+        <p>
+        tr要素はth要素とtd要素以外を含むことができず、かならずひとつ以上のth要素またはtd要素を含む必要がある。<br />
+        th要素とtd要素はブロクレベルであり、インライン要素やテキストを含むことができ、さらにブロックレベル要素を含むことができる。
+        </p>
+        <table>
+            <tr>
+                <th>チーム</th>
+                <th>勝利数</th>
+            </tr>
+            <tr>
+                <td>巨人</td>
+                <td>67</td>
+            </tr>
+            <tr>
+                <td>阪神</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>中日</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>DeNA</td>
+                <td>56</td>
+            </tr>
+            <tr>
+                <td>広島</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>ヤクルト</td>
+                <td>41</td>
+            </tr>
+        </table>
+    </body>
+</html>
