@@ -1,0 +1,23 @@
+p.sample1 {
+	width:100%;
+	background-color:#99cc00;
+	text-justify:auto;
+}
+
+p.sample2 {
+	width:100%;
+	background-color:#99cc00;
+	text-justify:none;
+}
+
+p.sample3 {
+	width:100%;
+	background-color:#99cc00;
+	text-justify:inter-word;
+}
+
+p.sample4 {
+	width:100%;
+	background-color:#99cc00;
+	text-justify:inter-character;
+}
