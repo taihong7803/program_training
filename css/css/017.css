@@ -1,0 +1,23 @@
+p.sample1 {
+	width:100%;
+    background-color:#99cc00;
+    text-indent:100px;
+}
+
+p.sample2 {
+	width: 100%;
+    background-color:#99cc00;
+    text-indent:2em;
+}
+
+p.sample3 {
+	width:100%;
+    background-color:#99cc00;
+    text-indent:2em each-line;
+}
+
+p.sample4 {
+	width:100%;
+    background-color:#99cc00;
+    text-indent:2em hanging;
+}
