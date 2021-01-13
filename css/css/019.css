@@ -1,0 +1,25 @@
+p.sample1 {
+	width:30%;
+	background-color:#99cc00;
+	white-space: normal;
+}
+p.sample2 {
+	width:30%;
+	background-color:#99cc00;
+	white-space: pre;
+}
+p.sample3 {
+	width:30%;
+	background-color:#99cc00;
+	white-space: nowrap;
+}
+p.sample4 {
+	width:30%;
+	background-color:#99cc00;
+	white-space: pre-wrap;
+}
+p.sample5 {
+	width:30%;
+	background-color:#99cc00;
+	white-space: pre-line;
+}
