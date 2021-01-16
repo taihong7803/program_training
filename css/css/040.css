@@ -1,0 +1,5 @@
+p.sample1 {border-style: solid; border-color: red;}
+p.sample2 {border-style: solid; border-color: #ff0000;}
+p.sample3 {border-style: solid; border-color: #ff0000 #00ff00;}
+p.sample4 {border-style: solid; border-color: #ff0000 #00ff00 #0000ff;}
+p.sample5 {border-style: solid; border-color: #ff0000 #00ff00 #0000ff #ff00ff;}

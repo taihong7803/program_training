@@ -1,0 +1,9 @@
+p.sample1 {border-style: solid; border-width: 1px;}
+p.sample2 {border-style: solid; border-width: 1em;}
+p.sample3 {border-style: solid; border-width: 1ex;}
+p.sample4 {border-style: solid; border-width: thin;}
+p.sample5 {border-style: solid; border-width: medium;}
+p.sample6 {border-style: solid; border-width: thick;}
+p.sample7 {border-style: solid; border-width: 5px 10px;}
+p.sample8 {border-style: solid; border-width: 5px 10px 15px;}
+p.sample9 {border-style: solid; border-width: 5px 10px 15px 20px;}

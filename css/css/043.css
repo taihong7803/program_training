@@ -1,0 +1,7 @@
+p.sample1 {border-top: double 10px #0000ff;}
+p.sample2 {border-top: inset 10px #ff0000;}
+p.sample3 {
+margin: 30px 30px;
+padding: 10px;
+border-top: medium solid #ff00ff;
+}

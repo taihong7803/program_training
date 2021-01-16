@@ -1,0 +1,13 @@
+p.sample1 {border-style: none;}
+p.sample2 {border-style: hidden;}
+p.sample3 {border-style: solid;}
+p.sample4 {border-style: double;}
+p.sample5 {border-style: groove;}
+p.sample6 {border-style: ridge;}
+p.sample7 {border-style: inset;}
+p.sample8 {border-style: outset;}
+p.sample9 {border-style: dashed;}
+p.sample10 {border-style: dotted;}
+p.sample11 {border-style: solid double;}
+p.sample12 {border-style: solid double groove;}
+p.sample13 {border-style: solid double groove ridge;}
