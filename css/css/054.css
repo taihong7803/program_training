@@ -1,0 +1,6 @@
+p {border-style: solid;}
+p.sample1 {border-left-width: 5px;}
+p.sample2 {border-left-width: 1em;}
+p.sample3 {border-left-width: thin;}
+p.sample4 {border-left-width: medium;}
+p.sample5 {border-left-width: thick;}
