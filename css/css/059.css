@@ -1,0 +1,28 @@
+p.sample1 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow-y: visible;
+}
+p.sample2 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow-y: hidden;
+}
+
+p.sample3 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow-y: scroll;
+}
+
+p.sample4 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow-y: auto;
+}
+
+p.sample5 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow-y: no-display;
+}

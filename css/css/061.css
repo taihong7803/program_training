@@ -1,0 +1,32 @@
+p.sample1 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow: visible;
+}
+
+p.sample2 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow: hidden;
+}
+p.sample3 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow: scroll;
+}
+p.sample4 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow: auto;
+}
+p.sample5 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow: no-display;
+}
+
+p.sample6 {
+	width: 200px; height: 120px;
+    background-color: yellowgreen;
+    overflow: no-content;
+}

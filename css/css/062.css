@@ -1,0 +1,5 @@
+p {height:50px; background-color:#00ff00; font-weight:bold; position:relative }
+span.sample1 {color:#ff0000; position:static; top:10px; left:10px }
+span.sample2 {color:#ff0000; position:relative; top:10px; left:10px }
+span.sample3 {color:#ff0000; position:absolute; top:10px; left:10px }
+span.sample4 {color:#ff0000; position:fixed; top:10px; left:10px }
