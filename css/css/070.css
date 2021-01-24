@@ -1,0 +1,7 @@
+p.sample {
+color: #000000; background-color: #99cc00;
+position: relative; top: 50px; z-index: 2;
+}
+img.sample {
+position: relative; top: -50px; z-index: 1;
+}

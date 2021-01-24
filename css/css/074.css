@@ -1,0 +1,2 @@
+p.sample1 {direction: rtl; unicode-bidi: bidi-override;}
+p.sample2 {direction: ltr; unicode-bidi: normal;}
