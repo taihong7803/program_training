@@ -1,0 +1,6 @@
+table.sample {
+border: solid 1px #000000;
+border-collapse: separate;
+border-spacing: 10px 100px;
+}
+td.sample {border: solid 1px #ff0000}
