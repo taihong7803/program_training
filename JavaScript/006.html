@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>ウィンドウ名.length</title>
+        <link rel="stylesheet" href="./css/006.css" />
+        <script>
+        function kakunin() {
+        	var sampleLength = window.length;
+        	document.getElementById("kekka").innerHTML = sampleLength;
+        }
+        </script>
+	</head>
+	<body onLoad="window.defaultStatus='ようこそ！'">
+		<h1>ウィンドウ名.length</h1>
+       <iframe src="./006.html">インラインフレーム１</iframe>
+       <iframe src="./006.html">インラインフレーム２</iframe>
+       <iframe src="./006.html">インラインフレーム３</iframe>
+       
+       <p><button onclick="kakunin()">ウィンドウ内のフレーム数を確認する</button></p>
+       <div id="kekka"></div>
+	</body>
+</html>
