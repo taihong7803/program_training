@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>ウィンドウ名.closed</title>
+        <link rel="stylesheet" href="./css/009.css" />
+        <script>
+         var sampleWindow;
+         function hiraku() {
+         	sampleWindow = window.open("./008.html", "008.html");
+         }
+         
+         function tojiru() {
+         	
+         	if(sampleWindow != null) {
+         		sampleWindow.close();
+         	}
+         }
+         
+         function kakunin() {
+         	if (sampleWindow.closed) {
+         		alert("008.htmlは開いている");
+         	} else {
+         		alert("008.htmlは閉じていません");
+         	}
+         }
+        </script>
+	</head>
+	<body>
+		<h1>ウィンドウ名.closed</h1>
+        <p><button onclick="hiraku()">008.htmlを開く</button></p>
+        <p><button onclick="tojiru()">008.htmlを閉じる</button></p>
+        <p><button onclick="kakunin()">008.htmlが閉じているかどうか確認する</button></p>
+	</body>
+</html>

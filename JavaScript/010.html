@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>ウィンドウ名.name()</title>
+        <link rel="stylesheet" href="./css/010.css" />
+        <script>
+        var sampleWindow;
+        function hiraku() {
+        	sampleWindow = window.open("./009.html", "sample");
+        }
+        
+        function kakunin() {
+        	var sampleName = sampleWindow.name;
+        	document.getElementById("kekka").innerHTML = sampleName;
+        }
+        </script>
+	</head>
+	<body>
+		<h1>ウィンドウ名.name()</h1>
+        <p>サンプルウィンドウを開いてから、確認するとウィンドウ名を表示します。</p>
+        <p><button onclick="hiraku()">サンプルウィンドウを開く</button></p>
+        <p><button onclick="kakunin()">サンプルウィンドウのウィンドウ名を確認する</button></p>
+        <div id="kekka"></div>
+	</body>
+</html>
