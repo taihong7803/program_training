@@ -1,3 +1,3 @@
---SQL‚ðŽŽ‚µ‚Ä‚Ý‚é
+--SQLã‚’è©¦ã—ã¦ã¿ã‚‹
 
-SELECT •i–¼ FROM ¤•i•\;
+SELECT å“å FROM å•†å“è¡¨;
